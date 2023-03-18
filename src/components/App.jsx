@@ -1,9 +1,9 @@
 import React from 'react';
+import { nanoid } from 'nanoid';
+import { AppContainer, Title } from './phonebook/Phonebook.styled';
 import ContactForm from './phonebook/ContactForm/ContactForm';
 import ContactList from './phonebook/ContactList/ContactList';
 import Filter from './phonebook/Filter/Filter';
-import { nanoid } from 'nanoid';
-import { AppContainer, Title } from './phonebook/Phonebook.styled';
 
 class App extends React.Component {
   state = {
